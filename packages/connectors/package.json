@@ -1,0 +1,18 @@
+{
+  "name": "@cleanslate/connectors",
+  "version": "0.1.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "@cleanslate/shared": "workspace:*",
+    "googleapis": "^144.0.0",
+    "google-auth-library": "^9.14.1",
+    "mailparser": "^3.7.1",
+    "node-imap": "^0.9.6"
+  },
+  "devDependencies": {
+    "@types/node-imap": "^0.9.6",
+    "typescript": "^5.5.4"
+  }
+}

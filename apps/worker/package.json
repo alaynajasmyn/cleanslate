@@ -1,0 +1,22 @@
+{
+  "name": "@cleanslate/worker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts --target bun --outdir dist",
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cleanslate/agents": "workspace:*",
+    "@cleanslate/connectors": "workspace:*",
+    "@cleanslate/core": "workspace:*",
+    "@cleanslate/db": "workspace:*",
+    "@cleanslate/shared": "workspace:*",
+    "bullmq": "^5.18.0",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1"
+  },
+  "devDependencies": { "typescript": "^5.5.4" }
+}
