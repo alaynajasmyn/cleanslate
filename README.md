@@ -6,6 +6,17 @@
 
 **Live demo:** https://cleanslate-peach.vercel.app
 
+## Screens
+
+| | |
+|---|---|
+| ![Action queue](docs/screenshots/actions.png) | ![Spend](docs/screenshots/spend.png) |
+| Action queue — AI-drafted cancellations & negotiations, you approve before send | Spend dashboard — monthly trend, category donut, top vendors |
+| ![Anomalies](docs/screenshots/anomalies.png) | ![Timeline](docs/screenshots/timeline.png) |
+| Anomalies — price hikes, duplicate charges, unused subs, trial countdowns | Timeline — every detection and scan in one log |
+| ![Sources](docs/screenshots/sources.png) | ![Settings](docs/screenshots/settings.png) |
+| Sources — Gmail OAuth, CSV upload, Plaid (soon), encrypted at rest | Settings — model, language, retention, autonomy controls |
+
 ## Why
 
 The average person leaks **$273/month** on subscriptions they forgot. Existing tools (Rocket Money, Truebill) are US-only, focus on bills, and don't cover non-US banks or Indonesian providers. Cleanslate is **global, multi-source, AI-native**.
