@@ -2,6 +2,10 @@
 
 > **The financial closet manager.** An AI agent that watches your inbox + bank, detects every subscription, alerts on anomalies, and cancels what you don't use — with your approval.
 
+![Cleanslate dashboard](docs/screenshots/dashboard.png)
+
+**Live demo:** https://cleanslate-peach.vercel.app
+
 ## Why
 
 The average person leaks **$273/month** on subscriptions they forgot. Existing tools (Rocket Money, Truebill) are US-only, focus on bills, and don't cover non-US banks or Indonesian providers. Cleanslate is **global, multi-source, AI-native**.
